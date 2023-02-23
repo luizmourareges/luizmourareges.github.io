@@ -1,0 +1,43 @@
+.menu-bg {
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+}
+
+.menu {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 15px 25px;
+}
+
+.menu-nav li img {
+    display: inline-block;
+    position: relative;
+    left: -25px;
+}
+
+.menu-search {
+    padding: 15px 25px;
+}
+
+.menu-nav a:hover {
+    background-color: #CCCCCC;
+    color: #000000;
+}
+
+.menu-search:hover {
+    background-color: #F44336;
+}

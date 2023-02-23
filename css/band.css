@@ -1,0 +1,44 @@
+.band-description {
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+}
+
+.band-description h1 {
+    font-size: 32px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.band-description h2 {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    color: #6E6E6E;
+    margin-bottom: 20px;
+}
+
+.band-description p {
+    padding: 0 350px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 60px;
+}
+
+.band-members ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 120px;
+}
+
+.band-members li h1 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.band-members li img {
+    border-radius: 4px;
+}

@@ -1,0 +1,26 @@
+.footer-bg {
+    background-color: #F7F7F7;
+}
+
+.footer {
+    padding: 80px 0px 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-bg p {
+    text-align: center;
+    padding-bottom: 80px;
+    color: #8A8A8A;
+}
+
+.footer-bg span {
+    color: #8A8A8A;
+    text-decoration: underline;
+}
+
+.footer-bg span:hover {
+    color: #000000;
+}

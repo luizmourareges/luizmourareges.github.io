@@ -1,0 +1,19 @@
+.home {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home h1, .home p {
+    color: #ffffff;
+    position: relative;
+    top: -120px;
+}
+
+.home h1 {
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.home p {
+    font-weight: bold;
+}
