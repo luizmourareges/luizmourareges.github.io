@@ -20,13 +20,7 @@
 .menu-nav a {
     color: #ffffff;
     text-transform: uppercase;
-    padding: 15px 25px;
-}
-
-.menu-nav li img {
-    display: inline-block;
-    position: relative;
-    left: -25px;
+    padding: 15px 30px;
 }
 
 .menu-search {
@@ -40,4 +34,5 @@
 
 .menu-search:hover {
     background-color: #F44336;
+    cursor: pointer;
 }
