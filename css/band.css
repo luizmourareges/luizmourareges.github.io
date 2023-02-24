@@ -61,11 +61,11 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 430px) {
     .band-description p {
-        padding: 0;
+        padding: 0 50px;
     }
     .band-members ul {
-        gap: 20px;
+        gap: 30px;
     }
 }
