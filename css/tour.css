@@ -122,6 +122,30 @@
     }
 }
 
+@media (max-width: 450px) {
+    .tour-items .tour-item span {
+        margin-left: 250px;
+    }
+}
+
+@media (max-width: 400px) {
+    .tour-items .tour-item span {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 350px) {
+    .tour-items .tour-item span {
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 300px) {
+    .tour-items .tour-item span {
+        margin-left: 100px;
+    }
+}
+
 @media (max-width: 500px) {
     .tour-items {
         margin-bottom: 60px;
