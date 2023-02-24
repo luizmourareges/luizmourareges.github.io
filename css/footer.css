@@ -24,3 +24,21 @@
 .footer-bg span:hover {
     color: #ffffff;
 }
+
+@media (max-width: 800px) {
+    .footer {
+        padding: 60px 0px 20px 0px;
+    }
+    .footer-bg p {
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 430px) {
+    .footer {
+        padding: 40px 0px 20px 0px;
+    }
+    .footer-bg p {
+        padding-bottom: 40px;
+    }
+}
