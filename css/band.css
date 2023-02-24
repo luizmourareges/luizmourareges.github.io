@@ -42,3 +42,30 @@
 .band-members li img {
     border-radius: 4px;
 }
+
+@media (max-width: 1100px) {
+    .band-description p {
+        padding: 0 200px;
+        line-height: 1.5;
+        text-align: justify;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 800px) {
+    .band-description p {
+        padding: 0 100px;
+    }
+    .band-members ul {
+        gap: 60px;
+    }
+}
+
+@media (max-width: 400px) {
+    .band-description p {
+        padding: 0;
+    }
+    .band-members ul {
+        gap: 20px;
+    }
+}

@@ -36,3 +36,23 @@
     background-color: #F44336;
     cursor: pointer;
 }
+
+@media (max-width: 800px) {
+    .menu-nav a {
+        padding: 10px 20px;
+    }
+    .menu-search {
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .menu-nav a {
+        font-size: 20px;
+        padding: 20px 40px;
+        margin: 20px auto;
+    }
+    .menu-search {
+        display: none;
+    }
+}

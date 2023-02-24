@@ -103,3 +103,35 @@
     background-color: #CCCCCC;
     color: #000000;
 }
+
+@media (max-width: 750px) {
+    .tour-items .tour-item span {
+        margin-left: 500px;
+    }
+}
+
+@media (max-width: 650px) {
+    .tour-items .tour-item span {
+        margin-left: 400px;
+    }
+}
+
+@media (max-width: 550px) {
+    .tour-items .tour-item span {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    .tour-items {
+        margin-bottom: 60px;
+    }
+    .tour-city {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 245px;
+    }
+    .tour-ny, .tour-paris, .tour-sa {
+        margin-bottom: 30px;
+    }
+}
